@@ -37,8 +37,8 @@ export class SecondComponent implements OnInit {
   setData(userId){
   //this.userId = this.results.userId;
   console.log(userId);
-  //this.results=userId.value;
-  //console.log(this.results);
+  this.results=userId.value;
+  console.log(this.results);
     
   }
 
