@@ -1,0 +1,25 @@
+<div class="container">
+    <br>
+    
+    <br>
+    
+    <!--<form (submit)="onSubmit()">
+      <input type="text" placeholder="enter UserId" (ngModel)="userId.value">
+      <button class="btn" (click)="addTo()">check</button>
+  
+   (ngModel)="userId"
+    </form>-->
+    <div >
+    <input type="text" placeholder="enter UserId"  (ngModel)="userId" >&nbsp;&nbsp;
+    <!--<div *ngFor="let ui of userId">{{ ui.userId }}</div>-->
+    <button  type="submit" class = "btn btn-sm btn-primary" (click)="setData(userId)">Check</button>
+<ul class="items">
+        <li *ngFor="let detail of results ">
+            <span class="badge">{{detail.userId}}</span>
+        </li>
+    </ul>
+
+
+    </div>
+    
+  
